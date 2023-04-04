@@ -1,0 +1,23 @@
+# js-jsnacks-blocco-5
+
+## jSnack 1 
+Abbiamo un elenco utenti (nome, cognome, età).
+Trovare i minorenni e gli over 65
+
+## Steps
+- creo un elenco di oggetti (utenti).
+- Grazie a filter(), estrapolo solo i minorenni e poi gli over 65
+
+---
+
+## jSnack 2 
+Abbiamo un elenco degli studenti di una facoltà
+Ogni studente ha un nome, un cognome, un numero di matricola e un elenco di voti.
+Dobbiamo creare un nuovo elenco dove ogni studente ha un nome-cognome, matricola e media voti
+
+## Steps
+- 
+- 
+- 
+- 
+- 
