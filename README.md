@@ -23,7 +23,7 @@ Dobbiamo creare un nuovo elenco dove ogni studente ha un nome-cognome, matricola
 
 ---
 
-## jSnack 3 
+## jSnack 4
 Abbiamo un elenco degli studenti di una facoltà , identificati da _id_, _Nome_ e _somma totale_
 dei loro voti di esame...
 1. Per preparare l’aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo;
@@ -38,7 +38,7 @@ dei loro voti di esame...
 
 ---
 
-## jSnack 4 
+## jSnack 5 
 Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà : nome e peso.
 Stampare in console la bici con peso minore utilizzando destructuring e template literal
