@@ -116,7 +116,6 @@ const studenti = [
 
                 fisica: 9,
 
-
                 storia: 2,
 
                 italiano: 7,
@@ -151,7 +150,7 @@ function media(voti) {
     }
 
     let media = 0
-    media = total / 4
+    media = (total / 4).toFixed(2)
 
     return media
 }
