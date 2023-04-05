@@ -1,3 +1,6 @@
+const container = document.querySelector(".container")
+
+const leggerissimo = document.querySelector(".leggerissima")
 
 const biciclette =[
     {
@@ -43,6 +46,30 @@ biciclette.forEach( bicicletta => {
 let leggerissima = Math.min(...arrayPeso)
 console.log(leggerissima);
 
-// qui utilizzo 
+leggerissimo.innerHTML = `
+    <div class="card m-2">
+        <div class="card-body">
+            <h3>la bicicletta più leggera pesa: ${leggerissima} kg</h3>
+        </div>
+    </div>
+`;
+
+/* qui utilizzo un'altra formula
 const min = arrayPeso.reduce((a, b) => Math.min(a, b))
-console.log(min)
+console.log(min)*/
+
+//stampo
+for(let bicicletta of biciclette){
+
+    container.innerHTML += `           
+    <div class="card m-2">
+        <div class="card-body">
+            <h4>nome: ${bicicletta.nome} </h4>
+            <h4>peso: ${bicicletta.peso} </h4>
+        </div>
+    </div>
+`;
+}
+
+
+
