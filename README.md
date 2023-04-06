@@ -60,7 +60,7 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 falli subiti e stampiamo tutto in console.
 
 ## Steps
-- 
-- 
-- 
--
+- ho creato un array di oggetti con le caratteristiche richieste
+- ho mappato gli oggetti cone le caratteristiche da creare a random
+- creato l'array di elementi richiesti grazie alla destrutturazione dell'oggetto ed un forEach()
+- stampato tutto in pagina come se fosse una tabella
